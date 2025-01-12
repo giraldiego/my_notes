@@ -26,23 +26,13 @@ https://itsfoss.com/things-to-do-after-installing-fedora/
 https://arcanesavant.github.io/p/2024/10/31/12-things-to-do-after-installing-fedora-workstation-41/
 https://fosspost.org/things-to-do-after-installing-fedora/
 
-```bash
-sudo bash -c 'cat >> /etc/dnf/dnf.conf' <<EOF
-max_parallel_downloads=10
-EOF
-```
-
-
-```shell
-sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-```
-
 
 ``` bash
 ## 1. Configure DNF for Faster Downloads of Packages
 
-sudo nano /etc/dnf/dnf.conf
+sudo bash -c 'cat >> /etc/dnf/dnf.conf' <<EOF
 max_parallel_downloads=10
+EOF
 
 ## 3. Enable RPM Fusion Repository 
 
@@ -52,11 +42,8 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 
 sudo hostnamectl set-hostname "fedora"
 
-sudo dnf install gnome-tweaks gnome-extensions-app
-
 ```
 
-https://www.hackingthehike.com/fedora38-guide/
 ### Video codecs
 
 ```bash

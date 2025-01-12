@@ -94,7 +94,7 @@
               "type": "backlink",
               "state": {
                 "file": "Setup/Fedora Setup.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -149,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2126c2025f43bca8",
+  "active": "44690553e7b83397",
   "lastOpenFiles": [
     "Welcome.md",
     "Setup/Fedora Setup.md",
