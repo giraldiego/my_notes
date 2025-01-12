@@ -161,10 +161,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44690553e7b83397",
+  "active": "2126c2025f43bca8",
   "lastOpenFiles": [
-    "Welcome.md",
+    "Setup/Development Setup.md",
     "Setup/Fedora Setup.md",
+    "Welcome.md",
     "Setup"
   ]
 }
