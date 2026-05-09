@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "9cf87e115b8b1e30",
+        "id": "daa5ade6982b575e",
         "type": "tabs",
         "children": [
           {
-            "id": "2126c2025f43bca8",
+            "id": "58def8f8b34b7208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup/Development Setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Development Setup"
+            }
+          },
+          {
+            "id": "7bebbf6988d940dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Fedora Setup"
             }
+          },
+          {
+            "id": "24dd4018e91254fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup/Development Setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Development Setup"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -149,10 +179,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -161,10 +193,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2126c2025f43bca8",
+  "active": "24dd4018e91254fe",
   "lastOpenFiles": [
-    "Setup/Development Setup.md",
+    "Untitled.md",
     "Setup/Fedora Setup.md",
+    "Setup/Development Setup.md",
+    "Study Guide.md",
+    "Complementary Guide.md",
+    "Misc",
+    "Skiing Alps.md",
+    "Setup/Sync Drive & Dropbox.md",
+    "Setup/Fedora 39 with Full Disk Encryption, Snapshot and Rollback Support.md",
     "Welcome.md",
     "Setup"
   ]

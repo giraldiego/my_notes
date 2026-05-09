@@ -20,6 +20,7 @@
 8. In the Shortcut field, type Super+E.
 9. Click on the Add button.
 ```
+
 ## Things to do after installing Fedora
 
 https://itsfoss.com/things-to-do-after-installing-fedora/
@@ -94,15 +95,17 @@ ssh-add ~/.ssh/id_ed25519
 
 ## BTRFS
 
+https://mutschler.dev/linux/fedora-btrfs-35/
 [[Fedora 39 with Full Disk Encryption, Snapshot and Rollback Support]]
 ### btrfs-luks full disk encryption
 https://mutschler.eu/linux/install-guides/fedora-btrfs-33/
 https://mutschler.eu/linux/install-guides/fedora-post-install/
 ### Setup auto snapshots with Timeshift
 https://mutschler.eu/linux/install-guides/fedora-btrfs-33/
+
 ### BTRBK
 https://lukas.zapletalovi.com/posts/2022/fast-backups-of-fedora-with-btrbk/
-https://mutschler.eu/linux/install-guides/fedora-btrfs-35/
+https://mutschler.dev/linux/fedora-btrfs-35/
 
 ## NVIDIA
 

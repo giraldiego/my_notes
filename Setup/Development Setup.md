@@ -16,6 +16,21 @@ https://pip.pypa.io/en/stable/installation/
 https://realpython.com/intro-to-pyenv/#installing-pyenv
 https://github.com/pyenv/pyenv#how-it-works
 
+In summary: 
+- Install the dependencies.
+`sudo dnf install gcc make patch zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel`
+- Run the installer.
+`curl -fsSL https://pyenv.run | bash`
+- Setup the environment.
+Add these lines to `.bashrc`:
+```bash
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv virtualenv-init -)"
+```
+- [Building for maximum performance](https://github.com/pyenv/pyenv/blob/master/plugins/python-build/README.md#building-for-maximum-performance)
+`env PYTHON_CONFIGURE_OPTS='--enable-optimizations --with-lto' PYTHON_CFLAGS='-march=native -mtune=native' pyenv install --verbose 3.10.16`
+
 ### pyenv installer
 
 - Prerequisites
