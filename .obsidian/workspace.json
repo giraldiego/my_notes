@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup/Development Setup.md",
+                "file": "device_setup_log/old/Development Setup.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup/Development Setup.md",
+                "file": "device_setup_log/fedora_44/system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Development Setup"
+              "title": "system"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,17 +192,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24dd4018e91254fe",
+  "active": "58def8f8b34b7208",
   "lastOpenFiles": [
+    "device_setup_log/old/Fedora 39 with Full Disk Encryption, Snapshot and Rollback Support.md",
+    "device_setup_log/old/Fedora Setup.md",
+    "device_setup_log/old/Sync Drive & Dropbox.md",
+    "device_setup_log/fedora_44/system.md",
+    "device_setup_log/old/Development Setup.md",
+    "device_setup_log/old",
+    "device_setup_log/fedora_44/ai_stack.md",
+    "device_setup_log/fedora_44",
+    "device_setup_log",
     "Untitled.md",
-    "Setup/Fedora Setup.md",
-    "Setup/Development Setup.md",
     "Study Guide.md",
     "Complementary Guide.md",
     "Misc",
     "Skiing Alps.md",
-    "Setup/Sync Drive & Dropbox.md",
-    "Setup/Fedora 39 with Full Disk Encryption, Snapshot and Rollback Support.md",
     "Welcome.md",
     "Setup"
   ]
