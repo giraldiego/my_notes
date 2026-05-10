@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "device_setup_log/old/Development Setup.md",
+                "file": "device_setup_log/fedora_44/system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Development Setup"
+              "title": "system"
             }
           },
           {
@@ -194,13 +194,14 @@
   },
   "active": "58def8f8b34b7208",
   "lastOpenFiles": [
+    "device_setup_log/fedora_44/syncthing.md",
+    "device_setup_log/fedora_44/system.md",
+    "device_setup_log/fedora_44/ai_stack.md",
+    "device_setup_log/old/Development Setup.md",
     "device_setup_log/old/Fedora 39 with Full Disk Encryption, Snapshot and Rollback Support.md",
     "device_setup_log/old/Fedora Setup.md",
     "device_setup_log/old/Sync Drive & Dropbox.md",
-    "device_setup_log/fedora_44/system.md",
-    "device_setup_log/old/Development Setup.md",
     "device_setup_log/old",
-    "device_setup_log/fedora_44/ai_stack.md",
     "device_setup_log/fedora_44",
     "device_setup_log",
     "Untitled.md",

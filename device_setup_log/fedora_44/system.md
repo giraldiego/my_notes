@@ -109,21 +109,52 @@ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 ```
 # Setup and Configurations
 
-## Alternative Installations
+## AMD
 
-### Flatpak
-
-```
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-```
-
-### AppImage
+https://www.youtube.com/watch?v=JiHO8MJ-aMk
+https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/
 
 ```
-sudo dnf install fuse-libs
+sudo dnf copr enable ilyaz/LACT
 
-flatpak install it.mijorus.gearlever
+sudo dnf install lact
+
+sudo systemctl enable --now lactd
 ```
+
+## Syncthing
+
+### Guides
+
+https://www.youtube.com/watch?v=se4V-CgO7ZM
+
+https://www.youtube.com/watch?v=pl3PWny2kao&t=562s
+### Download
+https://syncthing.net/downloads/
+### Install
+
+https://docs.syncthing.net/users/autostart#how-to-set-up-a-system-service
+https://ruivieira.dev/blog/2024_03_31.html
+
+```
+wget https://github.com/syncthing/syncthing/releases/download/v2.0.16/syncthing-linux-amd64-v2.0.16.tar.gz
+
+tar xzf syncthing-linux-amd64-v*.tar.gz
+sudo mv syncthing-linux-amd64-v*/syncthing /usr/local/bin/
+
+# copy the template and edit accordingly
+cp syncthing-linux-amd64-v*/syncthing/etc/linux-systemd/user/syncthing ~/.config/systemd/user/
+
+systemctl --user daemon-reload && systemctl --user enable --now syncthing.service && systemctl --user start syncthing.service
+
+systemctl --user status syncthing.service
+
+http://127.0.0.1:8384 
+```
+
+Toolbox
+https://www.qualityology.com/tech/syncthing-in-toolbox-on-fedora-silverblue-with-systemd/#Step-2-Entering-the-Toolbox
+
 
 ## SSH Keys
 https://docs.github.com/authentication/connecting-to-github-with-ssh
@@ -136,22 +167,7 @@ ssh-add ~/.ssh/id_ed25519
 
 cat ~/.ssh/id_ed25519.pub
 ```
-## BTRFS
 
-### BTRBK
-https://lukas.zapletalovi.com/posts/2022/fast-backups-of-fedora-with-btrbk/
-https://mutschler.dev/linux/fedora-btrfs-35/
-
-## Dropbox
-
-https://www.linuxshelltips.com/install-dropbox-fedora-linux/
-
-https://www.dropbox.com/install
-
-````bash
-$ sudo dnf install libgnome libgnome-devel -y
-$ sudo dnf install ./nautilus-dropbox-2023.09.06-1.fedora.x86_64.rpm
-````
 ## Gnome Extensions
 
 ### AppIndicator and KStatusNotifierItem Support
@@ -214,6 +230,37 @@ function __powerline_python_venv_prompt {
 ```
 [source](https://gist.github.com/loganasherjones/bd9b7614f80b96cf700fd60e9e256f41)
 
+## Alternative Installations
+
+### Flatpak
+
+```
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+### AppImage
+
+```
+sudo dnf install fuse-libs
+
+flatpak install it.mijorus.gearlever
+```
+
+## BTRFS
+
+### BTRBK
+https://lukas.zapletalovi.com/posts/2022/fast-backups-of-fedora-with-btrbk/
+https://mutschler.dev/linux/fedora-btrfs-35/
+## Dropbox
+
+https://www.linuxshelltips.com/install-dropbox-fedora-linux/
+
+https://www.dropbox.com/install
+
+````bash
+$ sudo dnf install libgnome libgnome-devel -y
+$ sudo dnf install ./nautilus-dropbox-2023.09.06-1.fedora.x86_64.rpm
+````
 # Libvirt
 
 https://www.youtube.com/watch?v=BgZHbCDFODk
