@@ -13,6 +13,8 @@ https://github.com/SysGuides/sysguides-snapper-fedora
 [How to Install Fedora 42 with Snapshot and Rollback Support](https://sysguides.com/install-fedora-42-with-snapshot-and-rollback-support)
 
 [How to Install Fedora 40 with Snapshot and Rollback Support](https://sysguides.com/install-fedora-with-snapshot-and-rollback-support#6-7-snapper-tests)
+
+Extra steps for toolbox: [[create_toolbox_subvolume]]
 ## Install Obsidian
 
 https://github.com/giraldiego/my_notes
@@ -154,7 +156,6 @@ http://127.0.0.1:8384
 
 Toolbox
 https://www.qualityology.com/tech/syncthing-in-toolbox-on-fedora-silverblue-with-systemd/#Step-2-Entering-the-Toolbox
-
 
 ## SSH Keys
 https://docs.github.com/authentication/connecting-to-github-with-ssh

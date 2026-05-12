@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "device_setup_log/fedora_44/system.md",
+                "file": "storage_management/Brainstorming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "system"
+              "title": "Brainstorming"
             }
           },
           {
@@ -194,13 +194,16 @@
   },
   "active": "58def8f8b34b7208",
   "lastOpenFiles": [
-    "device_setup_log/fedora_44/syncthing.md",
     "device_setup_log/fedora_44/system.md",
-    "device_setup_log/fedora_44/ai_stack.md",
+    "storage_management/Brainstorming.md",
+    "storage_management",
     "device_setup_log/old/Development Setup.md",
     "device_setup_log/old/Fedora 39 with Full Disk Encryption, Snapshot and Rollback Support.md",
     "device_setup_log/old/Fedora Setup.md",
     "device_setup_log/old/Sync Drive & Dropbox.md",
+    "device_setup_log/fedora_44/create_toolbox_subvolume.md",
+    "device_setup_log/fedora_44/syncthing.md",
+    "device_setup_log/fedora_44/ai_stack.md",
     "device_setup_log/old",
     "device_setup_log/fedora_44",
     "device_setup_log",
